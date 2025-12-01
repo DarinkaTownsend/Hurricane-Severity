@@ -50,14 +50,14 @@ Each model performs: - Damage severity classification\
 
 ## 🏗️ Two-Stage Methodology
 
-\[ Data Collection & Ground Truth Construction \] ↓ \[ Vision--Language
-Model Evaluation & Comparison \]
+1. Data Collection & Ground Truth Construction 
+2. Vision--Language Model Evaluation & Comparison
 
 ------------------------------------------------------------------------
 
 ## 📊 Ground Truth Construction Pipeline
 
-![Ground truth construction pipeline](figures/Data Process.png)
+![Ground truth construction pipeline](figures/pipeline2.png)
 
 Key steps: 1. Damage taxonomy definition\
 2. Before/After image collection\
@@ -70,7 +70,7 @@ Key steps: 1. Damage taxonomy definition\
 
 ## 🤖 Model Evaluation Pipeline
 
-![Model evaluation pipeline](figures/Analysis pipeline.png)
+![Model evaluation pipeline](figures/pipeline3.png)
 
 Key steps: 1. Model selection\
 2. Inference over clean/damage image pairs\
