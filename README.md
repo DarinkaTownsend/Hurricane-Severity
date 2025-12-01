@@ -27,7 +27,7 @@ semantic metrics.
 ## 🖼️ Example of Before/After Hurricane Damage Pairs
 
 ![Sample before/after hurricane
-damage](figures/clean.png)
+damage](figures/Clean.png)
 
 ------------------------------------------------------------------------
 
