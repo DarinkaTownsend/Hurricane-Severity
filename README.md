@@ -27,7 +27,7 @@ semantic metrics.
 ## 🖼️ Example of Before/After Hurricane Damage Pairs
 
 ![Sample before/after hurricane
-damage](figures/Clean.png)
+damage](03_readme_figures/Clean.png)
 
 ------------------------------------------------------------------------
 
@@ -57,7 +57,7 @@ Each model performs: - Damage severity classification\
 
 ## 📊 Ground Truth Construction Pipeline
 
-![Ground truth construction pipeline](figures/pipeline2.png)
+![Ground truth construction pipeline](03_readme_figures/pipeline2.png)
 
 Key steps: 1. Damage taxonomy definition\
 2. Before/After image collection\
@@ -70,7 +70,7 @@ Key steps: 1. Damage taxonomy definition\
 
 ## 🤖 Model Evaluation Pipeline
 
-![Model evaluation pipeline](figures/pipeline3.png)
+![Model evaluation pipeline](03_readme_figures/pipeline3.png)
 
 Key steps: 1. Model selection\
 2. Inference over clean/damage image pairs\
