@@ -41,6 +41,7 @@ damage](03_readme_figures/Clean.png)
 -   Valley-Eagle-7B\
 -   LLaVA-Video-7B-Qwen2\
 -   DeepSeek-VL
+-   OmniVinci
 
 Each model performs: - Damage severity classification\
 - Damage source identification\
