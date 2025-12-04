@@ -1,0 +1,55 @@
+[tool.black]
+line-length = 240
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oryx"
+version = "1.0.0"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+]
+
+dependencies = [
+    "torch", "torchvision",
+    "transformers==4.39.2", "tokenizers==0.15.2", "sentencepiece>=0.1.99", "shortuuid",
+    "accelerate==0.27.2", "peft==0.4.0",
+    "pydantic<2,>=1", "markdown2[all]", "numpy", "scikit-learn>=1.2.2",
+    "requests", "httpx==0.24.0", "uvicorn", "fastapi",
+    "einops==0.6.1", "einops-exts==0.0.4", "timm==0.9.16", "decord","protobuf"
+]
+
+[tool.setuptools.packages.find]
+exclude = [
+    "assets*",
+    "benchmark*",
+    "docs",
+    "dist*",
+    "playground*",
+    "scripts*",
+    "tests*",
+    "checkpoints*",
+    "project_checkpoints*",
+    "work_dirs*",
+    "data*",
+]
+
+[tool.wheel]
+exclude = [
+    "assets*",
+    "benchmark*",
+    "docs",
+    "dist*",
+    "playground*",
+    "scripts*",
+    "tests*",
+    "checkpoints*",
+    "project_checkpoints*",
+    "work_dirs*",
+    "data*",
+]

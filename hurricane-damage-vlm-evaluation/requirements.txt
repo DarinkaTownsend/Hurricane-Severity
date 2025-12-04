@@ -1,0 +1,32 @@
+# Hurricane Damage VLM Evaluation - Requirements
+# Python 3.10+ recommended
+
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.40.0
+Pillow>=10.0.0
+tqdm>=4.65.0
+
+# Metrics computation
+nltk>=3.8.0
+rouge-score>=0.1.2
+
+# Model-specific dependencies
+# For Oryx model
+einops>=0.7.0
+timm>=0.9.0
+
+# For VideoChat-Flash model
+av>=10.0.0
+imageio>=2.31.0
+decord>=0.6.0
+opencv-python>=4.8.0
+
+# For Qwen model (evaluate_vlms.py)
+qwen-vl-utils>=0.0.2
+
+# Optional: Flash Attention (improves performance but not required)
+# The code uses PyTorch SDPA as fallback when flash-attn is not available
+# pip install flash-attn --no-build-isolation
+

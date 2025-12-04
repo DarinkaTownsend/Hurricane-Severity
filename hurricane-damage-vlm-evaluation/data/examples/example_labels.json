@@ -1,0 +1,21 @@
+[
+  {
+    "location_name": "example_high_severity",
+    "severity": "High",
+    "damage_sources": [
+      "Storm Surge",
+      "High Wind"
+    ],
+    "description": "The 'after' image shows catastrophic damage where the white house on the right, visible in the 'before' image, has been completely destroyed and swept away, leaving only its stilts. The dense, leafy trees have been stripped bare, and the entire landscape, including the road, is buried under a significant layer of sand."
+  },
+  {
+    "location_name": "example_medium_severity",
+    "severity": "Medium",
+    "damage_sources": [
+      "Fallen Trees",
+      "Rain"
+    ],
+    "description": "The after image shows significant debris scattered across the roadway and properties, including what appears to be destroyed structures or building materials on the left side of the street. Multiple trees show damage with stripped foliage and broken branches, and there is visible debris accumulation throughout the residential area. The ground appears to have water damage or flooding residue, with scattered refuse and damaged property visible across multiple lots."
+  }
+]
+
